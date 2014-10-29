@@ -9,7 +9,7 @@ install
 examples
 --------
 
-### setup
+### setup with MASTER_KEY
 
     var Parse = require('node-parse-api').Parse;
 
@@ -17,6 +17,17 @@ examples
     var MASTER_KEY = ...;
 
     var app = new Parse(APP_ID, MASTER_KEY);
+
+### setup with API_KEY
+
+    var Parse = require('node-parse-api').Parse;
+
+    var options = {
+        app_id:'...',
+        api_key:'...' // master_key:'...' could be used too
+    }
+
+    var app = new Parse(options);
 
 ### insert an object
 
