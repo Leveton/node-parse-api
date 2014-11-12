@@ -5,7 +5,8 @@
   "author": "Chris Johnson <tenorviol@yahoo.com>",
   "contributors": [
     "Michael Leveton <mleveton@prepcloud.com>",
-    "Seth Gholson"
+    "Seth Gholson",
+    "Daniel Gasienica <daniel@gasienica.ch>"
   ],
   "main": "index",
   "scripts": {
