@@ -2,12 +2,23 @@
   "name": "node-parse-api",
   "description": "A Parse.com REST API client for Node.js",
   "version": "0.3.2",
-  "author": "Chris Johnson <tenorviol@yahoo.com>, Michael Leveton <mleveton@prepcloud.com>, Seth Gholson",
-  "repository": "git://github.com/leveton/node-parse-api",
+  "author": "Chris Johnson <tenorviol@yahoo.com>",
+  "contributors": [
+    "Michael Leveton <mleveton@prepcloud.com>",
+    "Seth Gholson"
+  ],
   "main": "index",
-  "scripts":{
-    "test":"nodeunit"
+  "scripts": {
+    "test": "nodeunit"
   },
+  "repository": "https://github.com/leveton/node-parse-api",
+  "keywords": [
+    "parse",
+    "mbaas",
+    "rest",
+    "push notifications",
+    "api"
+  ],
   "engines": {
     "node": ">= 0.4.0"
   },
