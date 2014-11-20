@@ -1,4 +1,4 @@
 test: nodeunit
 
 nodeunit:
-	nodeunit test/Parse.test.js
+	./node_modules/.bin/nodeunit test/Parse.test.js

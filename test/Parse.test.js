@@ -125,3 +125,17 @@ exports['delete all'] = function(assert){
       });
   });
 }
+
+exports['push notification error'] = function (assert) {
+  parse.sendPush({
+    channels: ['foobar'],
+    data2: {
+      alert: 'test message'
+    }
+  }, function (error, result) {
+    assert.ok(error);
+    assert.equal(result, null);
+    assert.equal(error.message, 'Missing the push data. (Code: 115)');
+    assert.done();
+  });
+}
